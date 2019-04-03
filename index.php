@@ -7,12 +7,12 @@
 * Source: https://core.trac.wordpress.org/browser/tags/3.9/src/wp-includes/query.php
 */
 $args = array(
-//////Author Parameters - Show posts associated with certain author.
+//////Author Parameters - Mostrar postagens associadas a determinado autor.
     //http://codex.wordpress.org/Class_Reference/WP_Query#Author_Parameters
-    'author' => '1,2,3,'                      //(int) - use author id [use minus (-) to exclude authors by ID ex. 'author' => '-1,-2,-3,']
-    'author_name' => 'luetkemj',              //(string) - use 'user_nicename' (NOT name)
-    'author__in' => array( 2, 6 ),            //(array) - use author id (available with Version 3.7).
-    'author__not_in' => array( 2, 6 ),        //(array)' - use author id (available with Version 3.7).
+    'author' => '1,2,3,'                      //(int) - use id do autor [use menos (-) para excluir os autores por ID ex. 'author' => '-1,-2,-3,']
+    'author_name' => 'luetkemj',              //(string) - use 'user_nicename' (nome NÃO)
+    'author__in' => array( 2, 6 ),            //(array) - use id de autor (disponível com a versão 3.7).
+    'author__not_in' => array( 2, 6 ),        //(array)' - use id de autor (disponível com a versão 3.7).
   
 //////Category Parameters - Show posts associated with certain categories.
     //http://codex.wordpress.org/Class_Reference/WP_Query#Category_Parameters
